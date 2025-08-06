@@ -6,8 +6,8 @@ A microcontroller-based system using the ESP32 to control an onboard LED remotel
 
 This project uses an ESP32 board to fetch data from a remote server and control the built-in LED accordingly. The ESP32 connects to Wi-Fi and sends a GET request to a specified URL. Based on the response (`0` or `1`), the LED is either turned off or on. The system is designed for real-time monitoring and control using simple web-based endpoints.
 
-- **Data retrieval URL:** `retrieve.php`  
-- **Data submission URL:** `send.php`
+- **Data retrieval URL:** `[retrieve.php](https://s-m.com.sa/r2/test/retrieve.php)`  
+- **Data submission URL:** `[send.php](https://s-m.com.sa/r2/test/send.php?x=1)`
 
 ## Features
 
